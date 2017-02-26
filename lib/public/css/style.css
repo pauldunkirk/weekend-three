@@ -1,0 +1,33 @@
+.topReadOut {
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  border-style: black;
+  display: inline;
+  /*background-size: contain;*/
+  /*border-radius: 60px;*/
+  margin: 0px;
+}
+
+.inputStyle {
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border-style: black;
+    display: inline;
+    /*background-size: contain;*/
+    /*border-radius: 60px;*/
+    margin: 0px;
+}
+
+.numberButtonStyle {
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    /*border-style: solid black;*/
+    border: thick solid black;
+    background-size: contain;
+    border-radius: 60px;
+    margin: 0px;
+    border-width: 2px;
+}
