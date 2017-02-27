@@ -1,20 +1,23 @@
-.topReadOut {
+#topReadOut {
   text-align: center;
   height: 20px;
-  width: 20px;
+  width: 330px;
   border-style: black;
-  display: inline;
+  border-style: solid;
+  border-style: 1px;
+  display: block;
   /*background-size: contain;*/
   /*border-radius: 60px;*/
-  margin: 0px;
+  margin: 2px;
 }
 
 .inputStyle {
     text-align: center;
-    height: 20px;
+    height: 100%;
     width: 20px;
-    border-style: black;
-    display: inline;
+    border-style: none;
+    display: inline-block;
+    float:left;
     /*background-size: contain;*/
     /*border-radius: 60px;*/
     margin: 0px;

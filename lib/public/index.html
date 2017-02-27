@@ -18,12 +18,17 @@
 <body>
     <h1>Wanna Calculate?</h1>
 
+<!-- <input type="hidden" id="inputOne" value="">
+<input type="hidden" id="inputOperator" value="">
+<input type="hidden" id="inputTwo" value="">
+<input type="hidden" id="answer" value=""> -->
 
-    <p class="topReadOut">
-        <div id="inputOne" class="inputStyle"> </div>
-        <div id="inputOperand" class="inputStyle">  </div>
-        <div id="inputTwo" class="inputStyle">  </div>
-    </p>
+    <div id="topReadOut">
+        <div id="inputOne" class="inputStyle"></div>
+        <div id="inputOperator" class="inputStyle"></div>
+        <div id="inputTwo" class="inputStyle"></div>
+        <div id="answer" class="inputStyle"></div>
+    </div>
 
     <p class="calc-row" id="firstNumberButtonsDiv">
         <button id="one" class="numberButtonStyle" type="button" data-amount="1" name="button">1</button>
@@ -68,7 +73,7 @@
 
 
 
-    <div id="answer">ANSWER</div>
+
     <button id="submit" type="button" name="button">SUBMIT</button>
     <button id="clearButton" type="button" name="button">CLEAR</button>
 
